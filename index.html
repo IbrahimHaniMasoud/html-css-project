@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="csspro.css">
-
+    <link rel="stylesheet" href="CssPro.css">
+    <style>#somthing_sticky { bottom:20px; left:100px; position:fixed; background-color: red; color: white; font-style:oblique; }
+    </style>
 </head>
 
 
@@ -51,11 +52,48 @@
         </div>
       
     </div>
-    <div  class="div" style="background-color:lightcoral ;">
-        <a href="https://github.com/IbrahimHaniMasoud">github</a>
+    <!-- <div  class="div" style="background-color:lightcoral ;">
+        <a href="https://github.com/IbrahimHaniMasoud">github</a></br>
+        <a href="https://www.freecodecamp.org/ibrahimmasoud">freecodecamp</a></br>
+        <a href="https://www.codewars.com/users/IbrahimMasoud">codewars</a>
 
+
+    </div> -->
+
+    <div style="display:flex; height: auto; margin-left: 60px; margin-top: 20px;">
+        
+        <img style="width: 200px;  margin-left: 50px;" src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=6fe0ebd22151102996062fa1287f824c">
+        <div class="div2" style="margin-left: 20px;display: flex; flex-direction: column; padding: 0 5px;"> 
+            <a href="https://github.com/IbrahimHaniMasoud">github</a></br>
+            <a href="https://www.freecodecamp.org/ibrahimmasoud">freecodecamp</a></br>
+            <a href="https://www.codewars.com/users/IbrahimMasoud">codewars</a>
+        </div>
     </div>
    
+    <div id="somthing_sticky">Welcome</div>
+
+<!-- نموذج اتصال  -->
+<div dir="rtl" style="margin-top: 20px; text-align: right;" trbidi="on">
+    <div id="contact-form">
+    <form name="contact-form">
+    <input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" placeholder="الاسم" size="30" type="text" value="" />
+    <input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" placeholder="بريد إلكتروني" size="30" type="text" value="" />
+    <textarea class="contact-form-email-message" cols="25" id="ContactForm1_contact-form-email-message" name="email-message" placeholder="الرسالة" rows="5"></textarea>
+    <input id="ContactForm1_contact-form-submit" type="button" value="إرسال" />
+    <br />
+    <div style="text-align: center;">
+    <div id="ContactForm1_contact-form-error-message">
+    </div>
+    <div id="ContactForm1_contact-form-success-message">
+    </div>
+    </div>
+    </form>
+    </div>
+    <style type="text/css">#contact-form{background:#ececec;padding:10px;box-shadow:0 0 0 1px #d9dce1}#ContactForm1_contact-form-name,#ContactForm1_contact-form-email,#ContactForm1_contact-form-email-message{margin:5px auto;border:1px solid #e3e3e3;transition:all .5s ease-out;width:95%;border-radius:10px;padding:8px 15px;margin-bottom:10px;font-family:'bein',Roboto,sans-serif}#ContactForm1_contact-form-submit{border:1px solid #e3e3e3;font:unset;text-shadow:1px 1px 5px #111;font-weight:700;font-size:14px;padding:5px 15px;background-color:#06de15;border-radius:5px;color:#fff;font-family:'bein',Roboto,sans-serif;letter-spacing:1px;cursor:pointer}#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#ContactForm1_contact-form-email-message:focus{outline:none;border-color:rgba(81,203,238,1);box-shadow:0 0 5px rgba(81,203,238,0.7)}.contact-form-error-message-with-border{color:#b90000;font-weight:700}</style>
+    
+</div>
+    
+
 </body>
  
 
